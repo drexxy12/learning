@@ -1,0 +1,52 @@
+
+.first{margin: 0;
+background-image: url('guiatar\ pic.jpg');
+background-repeat: no-repeat;
+background-size: 100%;
+}
+
+.image{
+    width: 30px;
+    height: 30px;
+    margin: 15px 0 0 100px;
+    border-radius: 50%;
+}
+
+
+.title{
+    margin: -27px 0 0 140px;
+    color: lightblue;
+    font-weight: 700;
+    font-family: ;
+}
+
+.ul-henry{display: flex;
+float: right;
+list-style: none;
+margin: -29px 24px 0 0;
+font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+li{
+    padding: 10px;
+    color: bisque;
+}
+
+#desc{
+    text-align: center;
+    font-size: 47px;
+    color: brown;
+    margin: 80px 0 0 0;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+.button1{
+color: black;
+background-color: aqua;
+border: none;
+height:50px;
+width: 130px;
+border-radius: 3px;
+font-size: 20px;
+margin-top: auto;}
+ 

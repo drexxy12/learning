@@ -1,0 +1,284 @@
+.first{
+    font-size: 15px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.first h3{
+    font-size: 29px;
+    color: #304438;
+}
+.second{
+    display: flex;
+    justify-content: space-between;
+    list-style: none;
+    color: gray;
+}
+
+.third{
+    height: 30px;
+    margin: 10px;
+    width: 190px;
+    background-color: #304438;
+    color: aliceblue;
+}
+
+.second li{
+    padding: 10px;
+}
+
+.fourth{
+    background-image: url(office\ 2\ \(1\).png);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    height: 500px;
+    font-size: 20px;
+    width: 1100px;
+}
+
+.fourth h2{
+    margin: 20px 100px;
+}
+
+.fourth h4{
+    font-size: 15px;
+    margin: 30px 100px;
+    color: #9e9b98;
+}
+
+.fifth{
+    background-color: #304438;
+    height: 30px;
+    margin: 20px 100px;
+    width: 190px;
+    color: aliceblue;
+}
+ .sixth{
+    text-align: center;
+    font-size: 25px;
+ }
+
+ .seventh{
+    display: flex;
+    justify-content: space-evenly
+ }
+
+ .image{
+    background-size: 50%;
+    height: 80px;
+    margin: 0px 30px;
+ }
+
+ .seventh h4{
+    color: #9e9b98;
+ }
+
+ .tick{
+    background-size: 50%;
+    height: 15px
+ }
+
+ .eigth{
+    text-align: center;
+    color: aliceblue;
+    font-style: oblique;
+ }
+
+ .ninth{
+    background-color: #304438;
+ }
+ 
+ .tenth{
+    background-size: 50%;
+    height: 50px;
+    justify-content: space-evenly;
+    margin: 0px 30px;
+ }
+
+ .eleventh{
+    text-align: center
+ }
+
+ .eleventh h4{
+    color: #9e9b98;
+ }
+
+ .twelfth{
+    background-size: 50%;
+    height: 400px;
+    margin-left: 70px;
+    margin-top: 30px;
+ }
+
+ .thirteen{
+    background-size: 50%;
+    height: 400px;
+    width: 500px;
+    margin-left: 70px;
+    margin-top: 30px;;
+ }
+ .ebuka{
+    margin: 130px 0 0 100px;
+    height: 500px;
+    width: 600px !important;
+}
+
+.text{
+    background-color: lightgrey;
+    margin: -550px 0 0 550px;
+    height: 500px;
+    width: 600px;
+    padding: 200px 0 0 180px;
+}
+
+.second-text{
+    background-color: #304438;
+    margin: -100px 0 0 80px;
+    height: 300px;
+    width: 500px;
+    padding: 200px 100px 0 0;
+}
+
+.second-image{
+    margin: -300px 0 0 560px !important;
+    height: 400px;
+    width: 660px;
+    background-size: 50%;
+}
+
+
+.third-text{
+    background-color: lightgrey;
+    margin: -580px 0 0 660px;
+    height: 300px;
+    width: 400px;
+    padding: 200px 0 0 180px
+    
+}
+
+.dboy{
+    margin: 30px 0 0 100px;
+    height: 300px;
+    width: 600px !important;
+    background-size: 50%;
+
+}
+
+.twelfth{
+    margin-top: 100px;
+    text-align: center;
+    background-color: #9e9b98;
+    background-size: 100%;
+    margin-right: 330px;
+    height: 450px;
+    width: 1500px;
+    margin-left: 0px;
+}
+
+.thirteen{
+    background-size: 50%;
+    height:20px;
+    width: 30px;
+}
+
+.chelsea{
+    text-align: center;
+    margin-left: 150px;
+    margin-top: 30px;
+    height: 200px;
+    width: 1000px;
+}
+
+.chelsea td, th {
+    border-bottom: 2px solid gray;
+}
+
+.twelfth h2, h4{
+    text-align: center;
+    margin-right: 90px;
+}
+
+.fifthteen{
+    text-align: center;
+    margin-right: 110px;
+}
+
+.fourtheen{
+    width: 150px;
+    height: 80px;
+    margin-left: 200px;
+    margin-top: 80px;
+    margin-right: 0px;
+}
+
+.sixteen{
+    margin-bottom: 10px;
+    margin-right: 20px;
+    margin-top:10px;}
+
+.seventheen{
+    display: flex;
+    margin-left: 60px;
+    margin-top: -50px;
+}
+
+
+
+.seventheen h4{
+    margin-top: 180px;
+    margin-left: -200px;
+}
+
+.eighteenth{
+    text-align: center;
+    height: 30px;
+    margin-left: 700px;
+}
+
+
+.twenty-one{
+    font-size:39px;
+margin-left: 800px;
+margin-right: 100px;
+ margin-top: 200px;
+ position:relative;
+}
+
+.twenty-two{
+    font-size:21px;
+    margin-left:800px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: gray;
+}
+
+.twenty-three{
+    margin-left: 890px;
+    width: 200px;
+    height: 40px;
+    margin-top:140px;
+}
+
+.twenty-four{
+   margin-top: -250px;
+   margin-left: 90px;
+}
+
+.twenty-five{
+    margin-top: 190px;
+    height: 300px;
+    margin-bottom: 2000px;
+    height: 400px;
+}
+
+.twenty-six{
+    margin-top: -47px;
+    margin-left: -200px;
+}
+
+.div{
+    background-color: skyblue;
+    height: 800px;
+    margin-top: -100px;
+}
+
+
