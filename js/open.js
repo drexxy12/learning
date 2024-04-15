@@ -159,10 +159,31 @@
 // }
 // console.log(sum);
 
-let numbers = [19, 65, 1, 2, 6, 1, 9, 9, 2, 1];
-let sum = 0;
-for ( let i in numbers) {
-    if ( i & 2 == 0) continue;
-    sum += numbers[i]
-}
-console.log(sum);
+// let numbers = [19, 65, 1, 2, 6, 1, 9, 9, 2, 1];
+// let sum = 0;
+// for ( let i in numbers) {
+//     if ( i & 2 == 0) continue;
+//     sum += numbers[i]
+// }
+// console.log(sum);
+
+//array of objects
+
+
+\// ES6
+// const changeProducts = () =>
+//   products.map(val => ({ ...val, price: val.price + 2 }));
+// console.log(changeProducts());
+// console.log(products);
+    
+let array1 = [1, 2, 3];
+let array2 = [4, 5, 6];
+
+// using es5/ javascript
+array1 = array1.concat(array2);
+console.log(array1)// [1,2,3,4,5,6]
+
+
+//using Es6/ javascript
+//array1 = [...array1, ...array2];
+//console.log(array1)// ..[1,2,3,4,5,6]
