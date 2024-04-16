@@ -1,0 +1,97 @@
+.one{
+    display: flex;
+    background-color: aqua;
+    background-size: auto ;
+    width: 1500px;
+    height: 130px;
+}
+
+.one h2{
+    margin-left: 800px;
+    margin-top: 28px;
+}
+
+.two{
+    width: 700px;
+    height: 400px;
+    margin-left: 850px;
+    margin-top: -220px;
+}
+
+
+
+.three{
+    margin-top: -45px;
+    background-color: black;
+    width: 1500px;
+    height: 600px;
+    color: antiquewhite;
+
+   
+}
+
+.three h1{
+    padding-top: 200px;
+    padding-left: 30px;
+    font-size: 70px;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.three h2{
+    padding-top: 20px;
+    padding-left: 30px;
+}
+
+.five{
+    margin-left: 30px;
+    width: 200px;
+    height: 50px;
+    font-size: 20px;
+}
+
+.seven{
+    display: flex;
+    justify-content: space-between;
+}
+
+.eight{
+    height: 110px;
+    width: 150px;
+}
+
+.nine{
+    position: relative;
+    width: 500px;
+    height: 500px;
+}
+
+.card-group{
+    justify-content: space-between;
+}
+
+.card-title{
+    font-size: 40px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: black;
+}
+
+.card-text{
+    color: black;
+}
+
+.card-me{
+    color: blue;
+}
+
+.twelve:hover{
+    opacity: 0.7;
+    color: blue;
+}
+
+.twelve{
+    width: 150px;
+    height: 50px;
+    border-radius: 9px;
+    background-color: wheat;
+}
+
