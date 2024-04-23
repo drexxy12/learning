@@ -1,0 +1,404 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Astro World</title>
+    <link rel="shortcut icon" href="images/blog.png" type="image/x-icon">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" class="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+    <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link
+        href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&family=Roboto:wght@400;500;700&display=swap"rel='stylesheet'>
+</head>
+<body class="font-poppins text-gray-600">
+    <nav class="bg-white shadow-sm">
+        <div class="container mx-auto px-4 py-3 flex items-center">
+            <div class="w-40">
+                <a href="index.html">
+                    <img src="Website_logo_design_2_1024x1024.webp" alt="logo" class="w-12">
+                </a>
+            </div>
+            <div class="ml-12 flex space-x-5">
+                <a href="" class="flex items-center font-semibold text-sm hover:text-blue-500 transition mr-3">
+                    <span class="mr-2">
+                        <i class="fas fa-home"></i>
+                    </span>
+                    Home
+                </a>
+                <a href="" class="flex items-center font-semibold text-sm hover:text-blue-500 transition mr-3">
+                    <span class="mr-2">
+                        <i class="fas fa-file-alt"></i>
+                    </span>
+                    About
+                </a>
+                <a href="" class="flex items-center font-semibold text-sm hover:text-blue-500 transition mr-3">
+                    <span class="mr-2">
+                        <i class="fas fa-phone"></i>
+                    </span>
+                    Contact</a>
+            </div>
+
+            <div class="relative ml-auto">
+                <span class="absolute left-3 top-2 text-sm text-gray-500">
+                    <i class="fas fa-search"></i>
+                </span>
+                <input type="text" 
+                placeholder="search..."
+                class="block w-full border-none rounded-3xl pl-11 pr-2 py-2 focus:outline-none bg-gray-100 text-sm text-gray-700 shadow-sm">
+            </div>
+            <div class="ml-3">
+                <a href="" class="flex items-center text-sm font-semibold hover: text-blue-500 transition"></a>
+                <span class="mr-2">
+                    <i class="fas fa-user"></i>
+                </span>
+                <a href="">Login/Register</a>
+            </div>
+        </div>
+    </nav>
+
+    <main class="py-12 bg-gray-100 min-h-screen">
+        <div class="container mx-auto px-4 flex">
+            <div class="w-3/12">
+                <div class="bg-white shadow-sm rounded-sm p-4">
+                    <h3 class="text-xl font-semibold text-gray-700 font-roboto mb-3">Categories</h3>
+                    <div class="text-gray-700 space-y-2">
+                        <a href="" class="flex items-center font-semibold leading-4 uppercase text-sm hover:text-blue-500 transitions">
+                            <span>
+                                <i class="far fa-folder-open"></i>
+                            </span>
+                            <span>Beauty</span>
+                            <span class="font-normal ml-auto">(12)</span>
+                        </a>
+                        <a href="" class="flex items-center font-semibold leading-4 uppercase text-sm hover:text-blue-500 transitions">
+                            <span>
+                                <i class="far fa-folder-open"></i>
+                            </span>
+                            <span>Business</span>
+                            <span class="font-normal ml-auto">(10)</span>
+                        </a>
+                        <a href="" class="flex items-center font-semibold leading-4 uppercase text-sm hover:text-blue-500 transitions">
+                            <span>
+                                <i class="far fa-folder-open"></i>
+                            </span>
+                            <span>Family</span>
+                            <span class="font-normal ml-auto">(15)</span>
+                        </a>
+                        <a href="" class="flex items-center font-semibold leading-4 uppercase text-sm hover:text-blue-500 transitions">
+                            <span>
+                                <i class="far fa-folder-open"></i>
+                            </span>
+                            <span>Fashion</span>
+                            <span class="font-normal ml-auto">(15)</span>
+                        </a>
+                        <a href="" class="flex items-center font-semibold leading-4 uppercase text-sm hover:text-blue-500 transitions">
+                            <span>
+                                <i class="far fa-folder-open"></i>
+                            </span>
+                            <span>Music</span>
+                            <span class="font-normal ml-auto">(7)</span>
+                        </a>
+                        <a href="" class="flex items-center font-semibold leading-4 uppercase text-sm hover:text-blue-500 transitions">
+                            <span>
+                                <i class="far fa-folder-open"></i>
+                            </span>
+                            <span>Food</span>
+                            <span class="font-normal ml-auto">(10)</span>
+                        </a>
+                        <a href="" class="flex items-center font-semibold leading-4 uppercase text-sm hover:text-blue-500 transitions">
+                            <span>
+                                <i class="far fa-folder-open"></i>
+                            </span>
+                            <span>Nature</span>
+                            <span class="font-normal ml-auto">(0)</span>
+                        </a>
+                    </div>
+                </div>
+
+                <div class="bg-white shadow-sm rounded-sm p-4 mt-8">
+                    <h3 class="text-xl font-semibold text-gray-700 font-roboto mb-3">Recent Posts</h3>
+                    <div class="space-y-4">
+                        <a href="#" class="flex group">
+                            <div class="flex-shrink-0">
+                                <img src="emir.jpg" class="w-20 h-16 rounded object-cover" alt="type">
+                            </div>
+                            <div class="flex-grow pl-3">
+                                <h5 class="text-md leading-5 font-roboto font-semibold group-hover:text-blue-500 transition">
+                                    The Emerge of an Emir from the East
+                                </h5>
+                                <div class="flex text-gray-400 text-sm items-center">
+                                    <span class="mr-1 text-xs">
+                                        <i class="far fa-clock"></i>
+                                    </span>
+                                    April 9, 2022
+                                </div>
+                            </div>
+                        </a>
+                        <a href="#" class="flex group">
+                            <div class="flex-shrink-0">
+                                <img src="AEOW.webp" class="w-20 h-16 rounded object-cover" alt="type">
+                            </div>
+                            <div class="flex-grow pl-3">
+                                <h5 class="text-md leading-5 font-roboto font-semibold group-hover:text-blue-500 transition">
+                                    Team Protocol geared up to attend AEOW 
+                                </h5>
+                                <div class="flex text-gray-400 text-sm items-center">
+                                    <span class="mr-1 text-xs">
+                                        <i class="far fa-clock"></i>
+                                    </span>
+                                    July 31, 2022
+                                </div>
+                            </div>
+                        </a>
+                        <a href="#" class="flex group">
+                            <div class="flex-shrink-0">
+                                <img src="GHANA.jpg" class="w-20 h-16 rounded object-cover" alt="type">
+                            </div>
+                            <div class="flex-grow pl-3">
+                                <h5 class="text-md leading-5 font-roboto font-semibold group-hover:text-blue-500 transition">
+                                    This time again Ghana was well represented.
+                                </h5>
+                                <div class="flex text-gray-400 text-sm items-center">
+                                    <span class="mr-1 text-xs">
+                                        <i class="far fa-clock"></i>
+                                    </span>
+                                    March 28, 2024
+                                </div>
+                            </div>
+                        </a>
+                    </div>
+                </div>
+            </div>
+            <div class="w-6/12 mx-6">
+                <div class="flex justify-between bg-white px-3 py-2 items-center rounded-sm mb-5">
+                    <h5 class="text-base uppercase font-semibold font-roboto">Family</h5>
+                    <a href="#" class="text-white bg-blue-500 px-3 py-1 rounded-sm uppercase text-sm hover:bg-transparent hover:text-blue-500 transition border border-blue-500">see more</a>
+                </div>
+
+                <div class="bg-white shadow-sm rounded-sm">
+                    <a href="#" class="overflow-hidden block">
+                        <img src="cult.png" alt="type" class="w-full h-96 object-cover rounded transform hover:scale-110 transition duration-500">
+                    </a>
+                    <div class="p-4">
+                        <a href="#">
+                            <h2 class="text-2xl font-semibold hover:text-blue-500 transition">
+                                A Nation's culture resides in the hearts and in the soul of its people!
+                            </h2>
+                        </a>
+                        <p class="text-gray-500 text-sm mt-2">
+                           Unity is strength... When there is teamwork and collaboration,wonderful things can be achieved. We may have different languages, different religions, but we all belong to one human race. We are connected. What unites us is our common humanity.
+                        </p>
+                        <div class="flex mt-3 space-x-5">
+                            <div class="flex items-center text-gray-400 text-sm">
+                                <span class="mr-2 text-xs">
+                                    <i class="far fa-user"></i>
+                                </span>
+                                Blogging Tips
+                            </div>
+                            <div class="flex items-center text-gray-400 text-sm">
+                                <span class="mr-2 text-xs">
+                                    <i class="far fa-clock"></i>
+                                </span>
+                                June 11, 2021
+                            </div>
+                        </div>
+                         <p class="text-gray-500 text-sm bg-green-50 border border-green-500 p-3 mt-5">
+                            <span class="mr-1 text-gray-400 text-xl"></span>
+                            <i class="fas fa-quote-left"></i>
+                            Ethnicity should enrich us; it should make us a unique people in our diversity and not be used to divide us.
+                            <span class="mr-1 text-gray-400 text-xl"></span>
+                            <i class="fas fa-quote-right"></i>
+                         </p>
+                         <p class="text-gray-500 text-sm mt-2">
+                            I end up feeling like a spy in the house of ethnicity, you know? Because people will talk around me as they would talk around the people in their cultural group. So i get to hear all the secrets and jokes and you know, i'm a part of every community because of the way i look.
+                         </p>
+                         <ul class="mt-4 pl-5 space-y-2"
+                         >
+                            <li class="text-sm">
+                                <span class="mr-1">
+                                    <i class="fas fa-angle-right"></i>
+                                </span>
+                                Alone we can do so little.
+                            </li>
+                            <li class="text-sm">
+                                <span class="mr-1">
+                                    <i class="fas fa-angle-right"></i>
+                                </span>
+                               "A nation's culture resides in the hearts and in the soul of its people".
+                            </li>
+
+                         </ul>
+                    </div>
+                </div>
+                <div class="grid grid-cols-2 gap-4 mt-4">
+                    <div class="bg-white p-4 shadow-sm rounded-sm">
+                        <a href="#" class="overflow-hidden block">
+                            <img src="impeccable dressing.jpg" alt="type" class="w-full h-60 object-cover rounded transform hover:scale-110 transition duration-500">
+                        </a>
+                        <div class="mt-3">
+                            <a href="#">
+                                <h2 class="text-xl font-semibold hover:text-blue-500 transition">
+                                    Dress immpeccably and they notice the Woman.
+                                </h2>
+                            </a>
+                            <div class="flex mt-2 space-x-5">
+                                <div class="flex items-center text-gray-400 text-sm">
+                                    <span class="mr-2 text-xs">
+                                        <i class="far fa-user"></i>
+                                    </span>
+                                    Blogging Tips
+                                </div>
+                                <div class="flex items-center text-gray-400 text-sm">
+                                    <span class="mr-2 text-xs">
+                                        <i class="far fa-clock"></i>
+                                    </span>
+                                     April 16, 2023
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="bg-white p-4 shadow-sm rounded-sm">
+                        <a href="#" class="overflow-hidden block">
+                            <img src="east side.jpg" alt="type" class="w-full h-60 object-cover rounded transform hover:scale-110 transition duration-500">
+                        </a>
+                        <div class="mt-3">
+                            <a href="#">
+                                <h2 class="text-xl font-semibold hover:text-blue-500 transition">
+                                    The East side of Town.
+                                </h2>
+                            </a>
+                            <div class="flex mt-2 space-x-5">
+                                <div class="flex items-center text-gray-400 text-sm">
+                                    <span class="mr-2 text-xs">
+                                        <i class="far fa-user"></i>
+                                    </span>
+                                    Blogging Tips
+                                </div>
+                                <div class="flex items-center text-gray-400 text-sm">
+                                    <span class="mr-2 text-xs">
+                                        <i class="far fa-clock"></i>
+                                    </span>
+                                    June 10, 2022
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>    
+            </div>
+            <div class="w-3/12 bg-gray">
+                <footer class="bg-white shadow-sm rounded-sm p-4">
+                    <h3 class="text-xl font-bold text-gray-700 font-roboto mb-3 text-center">Social Plugins</h3>
+                    <div class="flex gap-2 items-center justify-center">
+                        <a href="#" class="w-8 h-8 rounded-sm flex items-center justify-center border border-gray-400 text-base text-gray-800 hover:bg-blue-500">
+                            <i class="fab fa-facebook-f"></i>
+                        </a>
+                        <a href="#" class="w-8 h-8 rounded-sm flex items-center justify-center border border-gray-400 text-base text-gray-800 hover:bg-blue-500">
+                            <i class="fab fa-twitter"></i>
+                        </a>
+                        <a href="#" class="w-8 h-8 rounded-sm flex items-center justify-center border border-gray-400 text-base text-gray-800 hover:bg-blue-500">
+                            <i class="fab fa-instagram"></i>
+                        </a>
+                        <a href="#" class="w-8 h-8 rounded-sm flex items-center justify-center border border-gray-400 text-base text-gray-800 hover:bg-blue-500">
+                            <i class="fab fa-linkedin-in"></i>
+                        </a>
+                        <a href="#" class="w-8 h-8 rounded-sm flex items-center justify-center border border-gray-400 text-base text-gray-800 hover:bg-blue-500">
+                            <i class="fab fa-pinterest-p"></i>
+                        </a>
+                    </div>
+                    <div class="text-sm md:text-left mt-3">
+                        <span>&copy; 2024 Your Company. All rights reserved.</span>
+                    </div>
+                    <div class="flex items-center mt-3">
+                        <a href="#" class="text-gray-500 hover:text-blue mr-6">Privacy Policy</a>
+                        <a href="#" class="text-gray-500 hover:text-blue">Terms of Service</a>
+                    </div>
+                </footer>
+
+                <div class="bg-white shadow-sm rounded-sm p-4 mt-8">
+                    <div class="bg-gray-100 p-3">
+                        <div class="max-w-md mx-auto bg-white rounded p-6 shadow-md">
+                            <h3 class="text-xl font-bold mb-4 text-center">Subscribe to Our Newsletter</h3>
+                            <form action="#" method="post">
+                                <div class="mb-4">
+                                    <label for="email" class="block text-gray-700">Email Address</label>
+                                    <input type="email" id="email" name="email" placeholder="Your email address" class="mt-1 block w-full rounded-md border-gray-300 shadow-sm focus:border-blue-300 focus:ring focus:ring-blue-200 focus:ring-opacity-50">
+                                </div>
+                                <div class="mb-4 items-center text-center">
+                                    <a href="#" class="text-white bg-blue-500 px-4 py-2 rounded hover:bg-blue-600 focus:outline-none focus:bg-blue-600"><button class="submit">Subscribe</button></a>
+                                </div>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+                <div class="bg-white shadow-sm rounded-sm p-4 mt-8">
+                    <h3 class="text-xl font-semibold text-gray-700 font-roboto mb-3">Featured Posts</h3>
+                    <div class="space-y-4">
+                        <a href="#" class="flex group">
+                            <div class="flex-shrink-0">
+                                <img src="queen-of-all-saints.jpg" class="w-20 h-16 rounded object-cover" alt="type">
+                            </div>
+                            <div class="flex-grow pl-3">
+                                <h5 class="text-md leading-5 font-roboto font-semibold group-hover:text-blue-500 transition">
+                                    The Queen of All.
+                                </h5>
+                                <div class="flex text-gray-400 text-sm items-center">
+                                    <span class="mr-1 text-xs">
+                                        <i class="far fa-clock"></i>
+                                    </span>
+                                    October 11, 2022
+                                </div>
+                            </div>
+                        </a>
+                        <a href="#" class="flex group">
+                            <div class="flex-shrink-0">
+                                <img src="Hausa-dress-afrinik.jpg" class="w-20 h-16 rounded object-cover" alt="type">
+                            </div>
+                            <div class="flex-grow pl-3">
+                                <h5 class="text-md leading-5 font-roboto font-semibold group-hover:text-blue-500 transition">
+                                     Well represented in Hausa Ethnic group.
+                                </h5>
+                                <div class="flex text-gray-400 text-sm items-center">
+                                    <span class="mr-1 text-xs">
+                                        <i class="far fa-clock"></i>
+                                    </span>
+                                    April 9, 2022
+                                </div>
+                            </div>
+                        </a>
+                        <a href="#" class="flex group">
+                            <div class="flex-shrink-0">
+                                <video src="Download (46).mp4" class="w-20 h-16 rounded object-cover" alt="control">
+                            </div>
+                            <div class="flex-grow pl-3">
+                                <h5 class="text-md leading-5 font-roboto font-semibold group-hover:text-blue-500 transition">
+                                    My Paddy for Life.
+                                </h5>
+                                <div class="flex text-gray-400 text-sm items-center">
+                                    <span class="mr-1 text-xs">
+                                        <i class="far fa-clock"></i>
+                                    </span>
+                                    March 28, 2024
+                                </div>
+                            </div>
+                        </a>
+                    </div>
+                </div>
+                <div class="bg-white shadow-sm rounded-sm p-4 mt-">
+                    <h3 class="text-xl font-semibold text-gray-700 font-roboto mb-3">Tags</h3>
+                    <div class="flex">
+                        <a href="#" class="px-3 py-1 text-sm border border-gray-200 rounded-sm hover:bg-blue-500 hover:text-white transition">Beauty</a>
+                        <a href="#" class="px-3 py-1 text-sm border border-gray-200 rounded-sm hover:bg-blue-500 hover:text-white transition">Business</a>
+                        <a href="#" class="px-3 py-1 text-sm border border-gray-200 rounded-sm hover:bg-blue-500 hover:text-white transition">Fashion</a>
+                        <a href="#" class="px-3 py-1 text-sm border border-gray-200 rounded-sm hover:bg-blue-500 hover:text-white transition">Family</a>
+                    </div>
+                </div>
+            </div>
+            </div>
+
+        </div>
+
+    </main>
+    
+</body>
+</html>
