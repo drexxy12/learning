@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Shopping Cart</title>
+<style>
+  .item {
+    margin-bottom: 10px;
+    padding: 10px;
+    border: 1px solid #ccc;
+  }
+  .heart {
+    color: grey;
+    cursor: pointer;
+  }
+</style>
+</head>
+<body>
+
+<div id="cart">
+  <div class="item" id="item1">
+    <img src="basket.jpg" alt="bag" style="width: 200px; height: 150px;">
+    <span>Item 1 - $10</span>
+    <button class="decrement">-</button>
+    <span class="quantity">1</span>
+    <button class="increment">+</button>
+    <button class="delete">Delete</button>
+    <span class="heart">&#10084;</span>
+  </div>
+  <div class="item" id="item2">
+    <img src="socks.jpg" alt="bag" style="width: 200px; height: 150px;">
+    <span>Item 2 - $20</span>
+    <button class="decrement">-</button>
+    <span class="quantity">1</span>
+    <button class="increment">+</button>
+    <button class="delete">Delete</button>
+    <span class="heart">&#10084;</span>
+  </div>
+</div>
+<div id="total">Total: $<span id="total-price">30</span></div>
+<script src="dom.js"></script>
+<script>
